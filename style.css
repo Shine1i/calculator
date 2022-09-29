@@ -6,44 +6,89 @@
     margin: 0;
     padding: 0;
 }
-body{
+
+body {
     height: 100vh;
+    background-color: antiquewhite;
 }
-h1{
+
+h1 {
     text-align: center;
 }
 
-.wrapper{
-    border: 4px solid darkgray;
+.wrapper {
+    border: 5px solid darkgray;
     padding: 15px;
     width: 350px;
     height: 450px;
     margin: auto;
+    background-color: #3a4764;
 }
-.screen{
-    border: 2px solid grey;
-    width:315px;
+
+.screen {
+    width: 315px;
     height: 80px;
     text-align: right;
     font-size: 50px;
-    border-radius: 10px ;
+    border-radius: 10px;
+    background-color: #182034;
+    color: white;
 
 }
-.button-box{
+
+/*<- button section start->*/
+.button-box {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
     margin-top: 10px;
-    padding-bottom: 10px;
     width: 315px;
-    height:340px;
+    height: 340px;
 }
-.button{
+
+.button {
+    box-shadow: 0 8px 16px 0 rgba(211, 150, 150, 0.2), 0 6px 20px 0 rgba(194, 138, 138, 0.19);
+    font-weight: 1000;
     width: 70.75px;
-    height: 64px;
-    border-radius: 10px;
+    height: 50px;
+    border-radius: 8px;
+    background-color: #eae3dc;
+    border: none;
 }
-.button.Equal{
-    background-color: red;
+
+
+/*<- equal button styling start->*/
+.button.Equal {
+    box-shadow: none;
+    background-color: #d03f2f;
     width: 152px;
 }
+.button.Equal:hover{
+    background-color: green;
+}
+/*<- equal button styling end->*/
+
+.button.Del {
+    background-color: #637097;
+    box-shadow: none;
+    color: white;
+    font-size: 20px;
+}
+.button.Del:hover{
+    background-color: #d03f2f;
+}
+
+/*<- pressed effect start->*/
+.button:hover {
+    background-color: lightgrey
+}
+
+.button:active {
+    background-color: lightgrey;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
+
+/*<- pressed effect end->*/
+
+/*<- button section end->*/
