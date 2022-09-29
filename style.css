@@ -15,14 +15,16 @@ body {
 
 h1 {
     margin: 50px;
-    background: -webkit-linear-gradient(#eee, #333);
+    background: -webkit-linear-gradient(#eee, #4ae1d4);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     text-align: center;
     font-size: 72px;
-
-
+    /*transition: transform 0.3s ease-in-out;*/
 }
+/*h1:hover{*/
+/*    transform: rotate(360deg) scale(1.2);*/
+/*}*/
 
 .wrapper {
     border: 5px solid darkgray;
@@ -30,7 +32,7 @@ h1 {
     padding: 15px;
     max-width: 350px;
     max-height: 450px;
-    margin:0px auto auto auto;
+    margin:auto;
     background-color: #3a4764;
 }
 
@@ -105,6 +107,7 @@ h1 {
 
 /*<- button section end->*/
 
+/*<-footer start ->*/
 .footer {
     position: absolute;
     bottom: 0;
@@ -118,7 +121,7 @@ h1 {
     font-size: 20px;
     color: white;
 }
-/*<-footer start ->*/
+
 .fa-github:hover {
     transform: rotate(360deg) scale(1.2);
 }
