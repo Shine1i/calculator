@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap');
+
 * {
     font-family: 'Source Code Pro', monospace;
     box-sizing: border-box;
@@ -22,6 +23,7 @@ h1 {
     font-size: 72px;
     /*transition: transform 0.3s ease-in-out;*/
 }
+
 /*h1:hover{*/
 /*    transform: rotate(360deg) scale(1.2);*/
 /*}*/
@@ -32,8 +34,17 @@ h1 {
     padding: 15px;
     max-width: 350px;
     max-height: 450px;
-    margin:auto;
+    margin: auto;
     background-color: #3a4764;
+    /*box-shadow: 0 01px rgb(157, 150, 150), 01px 0 rgb(169, 169, 169), 01px 02px rgb(169, 169, 169),*/
+    /*02px 01px rgb(169, 169, 169), 02px 03px rgb(169, 169, 169),*/
+    /*03px 02px rgb(169, 169, 169), 03px 04px rgb(169, 169, 169),*/
+    /*04px 03px rgb(169, 169, 169), 04px 05px rgb(169, 159, 169),*/
+    /*05px 04px rgb(169, 169, 169), 05px 06px rgb(169, 169, 169),*/
+    /*06px 05px rgb(169, 169, 169), 06px 07px rgb(169, 169, 169),*/
+    /*07px 06px rgb(169, 169, 169), 07px 08px rgb(169, 169, 169),*/
+    /*08px 07px rgb(169, 169, 169), 08px 09px rgb(169, 169, 169),*/
+    /*09px 08px rgb(169, 169, 169), 09px 10px rgb(169, 169, 169), 10px 09px rgb(169, 169, 169);*/
 }
 
 .screen {
@@ -77,9 +88,11 @@ h1 {
     background-color: #d03f2f;
     width: 152px;
 }
-.button.Equal:hover{
+
+.button.Equal:hover {
     background-color: green;
 }
+
 /*<- equal button styling end->*/
 
 .button.Del {
@@ -88,7 +101,8 @@ h1 {
     color: white;
     font-size: 20px;
 }
-.button.Del:hover{
+
+.button.Del:hover {
     background-color: #d03f2f;
 }
 
@@ -125,9 +139,11 @@ h1 {
 .fa-github:hover {
     transform: rotate(360deg) scale(1.2);
 }
+
 .fa-github {
     color: white;
     font-size: 24px;
     transition: transform 0.3s ease-in-out;
 }
+
 /*<-footer end ->*/
