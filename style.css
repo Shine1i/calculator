@@ -49,15 +49,21 @@ h1 {
 
 .screen {
     display: flex;
-    justify-content: flex-end;
+    flex-direction: column;
     width: 310px;
     height: 80px;
 
-    font-size: 50px;
+    font-size: 30px;
     border-radius: 10px;
     background-color: #182034;
     color: white;
 
+}
+.current,
+.previous{
+    text-align: end;
+    width: 310px;
+    height: 40px;
 }
 
 /*<- button section start->*/
@@ -83,13 +89,13 @@ h1 {
 
 
 /*<- equal button styling start->*/
-.button.Equal {
+.button.equals {
     box-shadow: none;
     background-color: #d03f2f;
     width: 152px;
 }
 
-.button.Equal:hover {
+.button.equals:hover {
     background-color: green;
 }
 
