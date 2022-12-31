@@ -1,7 +1,8 @@
 # calculator
 Last project in TOP foundations
 why not use eval() you might ask? - good question.
-<blockquote class="imgur-embed-pub" lang="en" data-id="a/cZ8TY8s" data-context="false" ><a href="//imgur.com/a/cZ8TY8s"></a></blockquote><script async src="//s.imgur.com/min/embed.js" charset="utf-8"></script>
+![image](https://i.imgur.com/b19T3sU.png)
+
 - The app allows users to perform basic math operations such as addition, subtraction, multiplication, and division.
 - The app has a current screen and a previous screen to display the current value and the previous value in the calculation.
 - The app includes buttons for numbers, operators, the decimal point, and the clear and delete functions.
